@@ -1,7 +1,7 @@
 import unicodedata
 
 
-# removes special characters from .dic file
+# replaces special characters from .dic file
 # see example file
 def dic_file_ascii(outputfile, inputfile):
     with open(outputfile, 'w') as output:
@@ -16,7 +16,7 @@ def dic_file_ascii(outputfile, inputfile):
     sk_dict.close()
 
 
-# used to extract the first word (adjective) and removes special characters
+# used to extract the first word (adjective) and replaces special characters
 # see example file
 def first_adjective_ascii(outputfile, inputfile):
     prid_mena = []
